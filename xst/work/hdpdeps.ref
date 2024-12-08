@@ -1,0 +1,61 @@
+V3 35
+FL C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/ALU.vhd 2019/06/15.11:09:51 P.20131013
+EN work/ALU 1560590151 FL C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/ALU.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/STD_LOGIC_UNSIGNED 1381692179 \
+      PB ieee/NUMERIC_STD 1381692181
+AR work/ALU/Behavioral 1560590152 \
+      FL C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/ALU.vhd EN work/ALU 1560590151
+FL C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/CORE_MS2.vhd 2019/06/15.11:12:33 P.20131013
+EN work/CORE_MS2 1560590153 \
+      FL C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/CORE_MS2.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/CORE_MS2/Behavioral 1560590154 \
+      FL C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/CORE_MS2.vhd \
+      EN work/CORE_MS2 1560590153 CP ALU
+FL C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/DCE_Q818.vhd 2019/06/15.11:00:36 P.20131013
+EN work/DCE_Q818 1560590163 \
+      FL C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/DCE_Q818.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/DCE_Q818/Behavioral 1560590164 \
+      FL C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/DCE_Q818.vhd \
+      EN work/DCE_Q818 1560590163 CP CORE_MS2 CP I_O CP LOGIC CP RAM CP ROM
+FL C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/I_O.vhd 2019/06/15.10:57:02 P.20131013
+EN work/I_O 1560590155 FL C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/I_O.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/I_O/Behavioral 1560590156 \
+      FL C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/I_O.vhd EN work/I_O 1560590155 \
+      CP UART_receiver CP UART_transmitter
+FL C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/LOGIC.vhd 2019/06/15.10:58:32 P.20131013
+EN work/LOGIC 1560590157 \
+      FL C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/LOGIC.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181 \
+      PB ieee/std_logic_arith 1381692177 PB ieee/STD_LOGIC_UNSIGNED 1381692179
+AR work/LOGIC/Behavioral 1560590158 \
+      FL C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/LOGIC.vhd EN work/LOGIC 1560590157
+FL C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/RAM.vhd 2019/06/15.11:13:45 P.20131013
+EN work/RAM 1560590159 FL C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/RAM.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/RAM/Behavioral 1560590160 \
+      FL C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/RAM.vhd EN work/RAM 1560590159
+FL C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/ROM.vhd 2019/06/15.11:15:25 P.20131013
+EN work/ROM 1560590161 FL C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/ROM.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/ROM/Behavioral 1560590162 \
+      FL C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/ROM.vhd EN work/ROM 1560590161
+FL C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/UART_receiver.vhd 2019/06/15.10:59:37 P.20131013
+EN work/UART_receiver 1560590147 \
+      FL C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/UART_receiver.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/UART_receiver/Behavioral 1560590148 \
+      FL C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/UART_receiver.vhd \
+      EN work/UART_receiver 1560590147
+FL C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/UART_transmitter.vhd 2019/06/15.11:00:04 P.20131013
+EN work/UART_transmitter 1560590149 \
+      FL C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/UART_transmitter.vhd \
+      PB ieee/std_logic_1164 1381692176 PB ieee/NUMERIC_STD 1381692181
+AR work/UART_transmitter/Bechavioral 1560590150 \
+      FL C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/UART_transmitter.vhd \
+      EN work/UART_transmitter 1560590149
