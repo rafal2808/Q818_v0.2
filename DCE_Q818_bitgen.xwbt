@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\ja\Desktop\work\FPGA\projekty\DCEQ818\DCE_Q818.ncd
+OUTFILE=C:\Users\ja\Desktop\work\FPGA\projekty\DCEQ818\DCE_Q818.bit
+FAMILY=Spartan3A and Spartan3AN
+PART=xc3s50a-5tq144
+WORKINGDIR=C:\Users\ja\Desktop\work\FPGA\projekty\DCEQ818
+LICENSE=WebPack
+USER_INFO=211646583_0_0_354

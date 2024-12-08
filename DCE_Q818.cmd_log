@@ -1,0 +1,27 @@
+xst -intstyle ise -ifn "C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/DCE_Q818.xst" -ofn "C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/DCE_Q818.syr" 
+xst -intstyle ise -ifn "C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/DCE_Q818.xst" -ofn "C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/DCE_Q818.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc przypisanie_pinow.ucf -p xc3s50a-tq144-5 DCE_Q818.ngc DCE_Q818.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o DCE_Q818_map.ncd DCE_Q818.ngd DCE_Q818.pcf 
+par -w -intstyle ise -ol high -t 1 DCE_Q818_map.ncd DCE_Q818.ncd DCE_Q818.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DCE_Q818.twx DCE_Q818.ncd -o DCE_Q818.twr DCE_Q818.pcf -ucf przypisanie_pinow.ucf 
+bitgen -intstyle ise -f DCE_Q818.ut DCE_Q818.ncd 
+xst -intstyle ise -ifn "C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/DCE_Q818.xst" -ofn "C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/DCE_Q818.syr" 
+xst -intstyle ise -ifn "C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/DCE_Q818.xst" -ofn "C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/DCE_Q818.syr" 
+xst -intstyle ise -ifn "C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/DCE_Q818.xst" -ofn "C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/DCE_Q818.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc przypisanie_pinow.ucf -p xc3s50a-tq144-5 DCE_Q818.ngc DCE_Q818.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o DCE_Q818_map.ncd DCE_Q818.ngd DCE_Q818.pcf 
+par -w -intstyle ise -ol high -t 1 DCE_Q818_map.ncd DCE_Q818.ncd DCE_Q818.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DCE_Q818.twx DCE_Q818.ncd -o DCE_Q818.twr DCE_Q818.pcf -ucf przypisanie_pinow.ucf 
+bitgen -intstyle ise -f DCE_Q818.ut DCE_Q818.ncd 
+xst -intstyle ise -ifn "C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/DCE_Q818.xst" -ofn "C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/DCE_Q818.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc przypisanie_pinow.ucf -p xc3s50a-tq144-5 DCE_Q818.ngc DCE_Q818.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o DCE_Q818_map.ncd DCE_Q818.ngd DCE_Q818.pcf 
+par -w -intstyle ise -ol high -t 1 DCE_Q818_map.ncd DCE_Q818.ncd DCE_Q818.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DCE_Q818.twx DCE_Q818.ncd -o DCE_Q818.twr DCE_Q818.pcf -ucf przypisanie_pinow.ucf 
+bitgen -intstyle ise -f DCE_Q818.ut DCE_Q818.ncd 
+xst -intstyle ise -ifn "C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/DCE_Q818.xst" -ofn "C:/Users/ja/Desktop/work/FPGA/projekty/DCEQ818/DCE_Q818.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc przypisanie_pinow.ucf -p xc3s50a-tq144-5 DCE_Q818.ngc DCE_Q818.ngd  
+map -intstyle ise -p xc3s50a-tq144-5 -cm area -ir off -pr off -c 100 -o DCE_Q818_map.ncd DCE_Q818.ngd DCE_Q818.pcf 
+par -w -intstyle ise -ol high -t 1 DCE_Q818_map.ncd DCE_Q818.ncd DCE_Q818.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml DCE_Q818.twx DCE_Q818.ncd -o DCE_Q818.twr DCE_Q818.pcf -ucf przypisanie_pinow.ucf 
+bitgen -intstyle ise -f DCE_Q818.ut DCE_Q818.ncd 
